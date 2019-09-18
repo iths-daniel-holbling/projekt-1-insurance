@@ -1,0 +1,22 @@
+#intro-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "c j"
+                        "c l";
+}
+
+#covered {
+    grid-area: c;
+    background-color: #ddF;
+}
+
+#learn-more {
+    grid-area: j;
+    background-color: salmon;
+}
+
+#join-today {
+    grid-area: l;
+    background-color: orange;
+}
