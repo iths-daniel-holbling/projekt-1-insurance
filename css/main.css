@@ -8,7 +8,21 @@
 
 #covered {
     grid-area: c;
+    height: 30rem;
     background-color: #ddF;
+}
+
+#covered h1, #covered p, #covered a {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#covered a {
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
 }
 
 #learn-more {
@@ -19,4 +33,16 @@
 #join-today {
     grid-area: l;
     background-color: orange;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: #eee;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem 0rem;
+    color: black;
 }
