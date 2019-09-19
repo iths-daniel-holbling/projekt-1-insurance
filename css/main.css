@@ -171,6 +171,8 @@ nav a {
 .card p {
     font-size: 0.6rem;
     padding: 0 1rem;
+    color: rgba(0,0,0,0.5);
+    line-height: 1.05rem;
 }
 
 .card-image {
@@ -181,8 +183,36 @@ nav a {
     position: relative;
     bottom: 1rem;
 }
+
 #children .card-image {
     background-color: lightblue;
+    background-image: url('../images/child.png');
+    background-size: 42%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top;
+    background-position: center 0.8rem;
+
+}
+
+#just-right .card-image {
+    background-color: orange;
+    background-image: url('../images/adult.png');
+    background-size: 42%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top;
+    background-position: center 0.8rem;
+}
+
+#old-fart .card-image {
+    background-color: orangered;
+    background-image: url('../images/old.png');
+    background-size: 66%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top;
+    background-position: center 1rem;
 }
 
 .card {
