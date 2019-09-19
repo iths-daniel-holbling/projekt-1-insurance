@@ -116,10 +116,11 @@ nav a {
     font-family: 'Source Sans Pro';
 }
 
+
 /* GREY BLOCK */
 
 #grey-block {
-    display:grid;
+    display: grid;
     background-color: #bfbbbb;
     width: 70%;
     height: 30rem;
@@ -141,6 +142,56 @@ nav a {
     padding-right: 6rem;
     line-height: 1.4rem;
     color: #444
+}
+
+/* CARDS */
+
+#card-grid-holder {
+    width: 70%;
+    margin: auto;
+    height: 0;
+    }
+
+#card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 2rem;
+    margin: 0 7rem
+}
+
+.card {
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+
+.card p {
+    font-size: 0.6rem;
+    padding: 0 1rem;
+}
+
+.card-image {
+    margin:auto;
+    height: 50%;
+    width: 90%;
+    border-radius: 0.4rem;
+    position: relative;
+    bottom: 1rem;
+}
+#children .card-image {
+    background-color: lightblue;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.4rem;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.16);
+    position: relative;
+    height: 16rem;
+    bottom: 8rem;
 }
 
 /* YELLOW BLOCK */
