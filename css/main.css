@@ -1,24 +1,27 @@
 #intro-block {
     display: grid;
     margin: auto;
-    height: 35rem;
-    width: 80%;
+    height: 30rem;
+    width: 70%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "c j"
                         "c l";
 }
-
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Libre Baskerville';
+}
 p {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 0.8rem;
+    font-family: 'Source Sans Pro';
 }
 
 #covered {
     grid-area: c;
+    padding-top: 2rem;
     background-image: url('../images/family.png');
-    background-size: 70%;
+    background-size: 57%;
     background-repeat: no-repeat;
     background-attachment: local;
     background-position: bottom right;
@@ -32,12 +35,18 @@ p {
 }
 
 #covered h1, #covered p, #covered a {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 #covered p {
     padding-bottom: 2rem;
+    line-height: 1.4rem;
+    margin-right: 8.5rem;
+}
+
+#covered h1 {
+    font-weight: bolder;
 }
 
 .white {
@@ -46,21 +55,28 @@ p {
 
 .join-now-button {
     background-color: white;
-    padding: 1rem 3rem;
+    font-family: 'Libre Baskerville';
+    font-size: 0.60rem;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
     border-radius: 2rem;
     text-decoration: none;
     color: black;
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.3);
 }
 
 #learn-more h5, #join-today h5 {
+    font-size: 0.7rem;
     padding-top: 0;
     margin: 0;
 }
 
 #learn-more a, #join-today a {
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
     text-decoration: none;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #learn-more {
@@ -81,16 +97,24 @@ p {
     background-color: orange;
 }
 
+/* NAVIGATION ROW */
+
 nav {
     display:flex;
     margin: auto;
-    width: 80%;
+    width: 70%;
     justify-content: space-around;
     background-color: #eee;
 }
 
 nav a {
     text-decoration: none;
+    font-weight: bold;
+    font-size: 0.6rem;
     padding: 1rem 0rem;
     color: black;
+    font-family: 'Source Sans Pro';
 }
+
+/* GREY BLOCK */
+
