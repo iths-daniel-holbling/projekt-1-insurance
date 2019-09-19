@@ -248,3 +248,38 @@ nav a {
     color: rgba(0,0,0,0.5);
     line-height: 1.3rem;
 }
+
+/* HOW IT WORKS */
+
+#how-it-works-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:auto;
+}
+
+#how-it-works-flexbox div:nth-child(1) {
+    background-color: skyblue;
+}
+
+#how-it-works-flexbox div:nth-child(3) {
+    background-color: #eee;
+}
+
+#how-it-works-flexbox div:nth-child(5) {
+    background-color: orangered;
+}
+
+#how-it-works-flexbox div {
+    width: 33%;
+    height: 15rem;
+    margin: auto;
+    align-content: center;
+    background-color: white;
+    text-align: center;    
+}
+
+#how-it-works-flexbox div h2 {
+    text-align: left;
+    margin-left: 1rem;
+}
