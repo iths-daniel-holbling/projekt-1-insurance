@@ -103,7 +103,7 @@ nav {
     display:flex;
     margin: auto;
     width: 70%;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #eee;
 }
 
@@ -111,10 +111,18 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 0.6rem;
-    padding: 1rem 0rem;
+    padding: 1rem 3.5rem;
     color: black;
     font-family: 'Source Sans Pro';
 }
 
 /* GREY BLOCK */
 
+#grey-block {
+    display:grid;
+    background-color: silver;
+    width: 70%;
+    height: 30rem;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+}
