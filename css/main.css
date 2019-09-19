@@ -126,3 +126,19 @@ nav a {
     margin: auto;
     grid-template-columns: 1fr 1fr;
 }
+
+#grey-block-left * {
+    margin: 4rem 6rem;
+}
+
+#grey-block-left h1 {
+    color: white;
+    font-weight: bold;
+}
+
+#grey-block-right p {
+    margin: 4rem 3rem;
+    padding-right: 6rem;
+    line-height: 1.4rem;
+    color: #444
+}
