@@ -1,15 +1,34 @@
 #intro-block {
     display: grid;
+    margin: auto;
+    height: 35rem;
+    width: 80%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "c j"
                         "c l";
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
 #covered {
     grid-area: c;
-    height: 30rem;
-    background-color: #ddF;
+    background-image: url('../images/family.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: bottom right;
+    background-color: skyblue;
+    }
+
+#covered img {
+    height: 40%;
+    align-self: end;
+    justify-self: end;
 }
 
 #covered h1, #covered p, #covered a {
@@ -17,7 +36,15 @@
     margin-right: 2rem;
 }
 
-#covered a {
+#covered p {
+    padding-bottom: 2rem;
+}
+
+.white {
+    color: white;
+}
+
+.join-now-button {
     background-color: white;
     padding: 1rem 3rem;
     border-radius: 2rem;
@@ -25,18 +52,39 @@
     color: black;
 }
 
+#learn-more h5, #join-today h5 {
+    padding-top: 0;
+    margin: 0;
+}
+
+#learn-more a, #join-today a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+}
+
 #learn-more {
     grid-area: j;
-    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
 }
 
 #join-today {
     grid-area: l;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: orange;
 }
 
 nav {
     display:flex;
+    margin: auto;
+    width: 80%;
     justify-content: space-around;
     background-color: #eee;
 }
