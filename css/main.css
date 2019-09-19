@@ -120,7 +120,7 @@ nav a {
 
 #grey-block {
     display:grid;
-    background-color: silver;
+    background-color: #bfbbbb;
     width: 70%;
     height: 30rem;
     margin: auto;
@@ -141,4 +141,25 @@ nav a {
     padding-right: 6rem;
     line-height: 1.4rem;
     color: #444
+}
+
+/* YELLOW BLOCK */
+
+#yellow-block {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    height: 25rem;
+    background-color: orange;
+    padding-top: 11rem;
+}
+
+#yellow-block h1 {
+    color: white;
+}
+
+#yellow-block p {
+    margin: 1rem 15rem;
+    color: rgba(0,0,0,0.5);
+    line-height: 1.3rem;
 }
