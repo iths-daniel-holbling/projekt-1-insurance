@@ -29,7 +29,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: local;
     background-position: bottom right;
-    background-color: skyblue;
+    background-color: #C7DDEA;
     }
 
 #covered img {
@@ -89,7 +89,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: orangered;
+    background-color: #F17949;
 }
 
 #join-today {
@@ -98,7 +98,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: orange;
+    background-color: #FAB131;
 }
 
 /* NAVIGATION ROW */
@@ -200,7 +200,7 @@ nav a {
 }
 
 #just-right .card-image {
-    background-color: orange;
+    background-color: #FAB131;
     background-image: url('../images/adult.png');
     background-size: 42%;
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@ nav a {
 }
 
 #old-fart .card-image {
-    background-color: orangered;
+    background-color: #F17949;
     background-image: url('../images/old.png');
     background-size: 66%;
     background-repeat: no-repeat;
@@ -235,7 +235,7 @@ nav a {
     width: 70%;
     margin: auto;
     height: 25rem;
-    background-color: orange;
+    background-color: #FAB131;
     padding-top: 11rem;
 }
 
@@ -255,11 +255,12 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
+    height: 37rem;
     margin:auto;
 }
 
 #how-it-works-flexbox div:nth-child(1) {
-    background-color: skyblue;
+    background-color: #C7DDEA;
 }
 
 #how-it-works-flexbox div:nth-child(3) {
@@ -267,12 +268,12 @@ nav a {
 }
 
 #how-it-works-flexbox div:nth-child(5) {
-    background-color: orangered;
+    background-color: #F17949;
 }
 
 #how-it-works-flexbox div {
-    width: 33%;
-    height: 15rem;
+    width: 33.333%;
+    height: 50%;
     margin: auto;
     align-content: center;
     background-color: white;
