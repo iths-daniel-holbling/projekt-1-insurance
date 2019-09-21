@@ -125,8 +125,12 @@ nav a {
     font-weight: bold;
     font-size: 0.6rem;
     padding: 1rem 3.5rem;
-    color: black;
+    color: rgba(0,0,0,0.5);
     font-family: 'Source Sans Pro';
+}
+
+nav a:hover {
+    color: black;
 }
 
 
