@@ -1,12 +1,18 @@
 body {
     background-color: #eee;
+    min-width: 1000px;
+}
+
+.block {
+    width: 70%;
+    min-width: 900px;
+    max-width: 1100px;
+    margin: auto;
 }
 
 #intro-block {
     display: grid;
-    margin: auto;
     height: 30rem;
-    width: 70%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "c j"
@@ -105,8 +111,6 @@ p {
 
 nav {
     display:flex;
-    margin: auto;
-    width: 70%;
     justify-content: center;
     background-color: #eee;
 }
@@ -126,9 +130,7 @@ nav a {
 #grey-block {
     display: grid;
     background-color: #bfbbbb;
-    width: 70%;
     height: 30rem;
-    margin: auto;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -151,16 +153,14 @@ nav a {
 /* CARDS */
 
 #card-grid-holder {
-    width: 70%;
-    margin: auto;
     height: 0;
     }
 
 #card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0 2rem;
-    margin: 0 7rem;
+    justify-items: center;
+    margin: 0 2rem;
 }
 
 .card {
@@ -186,15 +186,15 @@ nav a {
     border-radius: 0.4rem;
     position: relative;
     bottom: 1rem;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top;
+    background-size: 42%;
 }
 
 #children .card-image {
     background-color: lightblue;
-    background-image: url('../images/child.png');
-    background-size: 42%;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: top;
+    background-image: url('../images/child.png');   
     background-position: center 0.8rem;
 
 }
@@ -202,10 +202,6 @@ nav a {
 #just-right .card-image {
     background-color: #FAB131;
     background-image: url('../images/adult.png');
-    background-size: 42%;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: top;
     background-position: center 0.8rem;
 }
 
@@ -213,9 +209,6 @@ nav a {
     background-color: #F17949;
     background-image: url('../images/old.png');
     background-size: 66%;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: top;
     background-position: center 1rem;
 }
 
@@ -233,8 +226,6 @@ nav a {
 
 #yellow-block {
     text-align: center;
-    width: 70%;
-    margin: auto;
     height: 25rem;
     background-color: #FAB131;
     padding-top: 11rem;
@@ -255,9 +246,7 @@ nav a {
 #how-it-works-flexbox {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
     height: 37rem;
-    margin:auto;
 }
 
 #how-it-works-flexbox div:nth-child(1) {
@@ -281,7 +270,51 @@ nav a {
     text-align: center;    
 }
 
+#how-it-works-flexbox div div {
+    padding-top: 4.5rem;
+    margin:auto;
+    width: 80%;
+    }
 #how-it-works-flexbox div h2 {
     text-align: left;
     margin-left: 1rem;
 }
+
+#how-it-works-flexbox div p {
+    align-self: center;
+    justify-self: center;
+    padding: 4rem;
+}
+
+/* TAKE ME TO THE TOP */
+
+#to-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #999999;
+}
+
+#to-top p {
+    margin:0 0 1.5rem 0;
+    font-size: 1.1rem;
+    line-height: 0;
+
+}
+
+#to-top-arrow {
+    margin:0;
+}
+
+.top-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* BOTTOM BLOCK */
+
+#bottom-block {
+    background-color: #555555;
+    height: 20rem;    
+}
+
