@@ -7,14 +7,14 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 <body>
-
+    <canvas id="gradient"></canvas>
 <!--INTRO BLOCK-->
     <div id="intro-block" class="block">
-        <div id="covered">
+        <div id="covered" data-aos="fade-right">
             <h1>We've got you Covered.</h1>
             <p>Together we keep each other safe at
                 home or at work. By paying a tiny fee a 
@@ -23,26 +23,26 @@
             </p>
             <a href="#" class="join-now-button">JOIN NOW</a>
         </div>
-        <div id="learn-more">
+        <div id="learn-more" data-aos="fade-down-left" data-aos-delay="250">
             <h5>What do we have to offer?</h5>
             <a href="#">Learn more</a>
         </div>
-        <div id="join-today">
+        <div id="join-today" data-aos="fade-up-left" data-aos-delay="500">
             <h5>What are you waiting for?</h5>
             <a href="#">Join today</a>
         </div>
     </div>
 
 <!--NAVBAR-->
-    <nav class="block">
-        <a href="index.html">Home</a>
-        <a href="offer.html">Our offer</a>
-        <a href="#">Why us</a>
-        <a href="contact.html">Contact</a>
+    <nav class="block" data-aos="flip-up" data-aos-delay="800">
+        <a banana="index.html">Home</a>
+        <a banana="offer.html">Our offer</a>
+        <a banana="#">Why us</a>
+        <a banana="contact.html">Contact</a>
     </nav>
 
 <!--GREY BLOCK-->
-    <div id="grey-block" class="block">
+    <div id="grey-block" class="block" data-aos="slide-up" data-aos-delay="750">
         <div id="grey-block-left">
             <h1>Your personal financial safety net online.</h1>
             <a href="#" class="join-now-button">JOIN NOW</a>
@@ -57,7 +57,7 @@
 <!--CARD GRID-->
     <div id="card-grid-holder" class="block">
         <div id="card-grid">
-            <div class="card" id="children">
+            <div class="card" id="children" data-aos="fade-up-right">
                 <div class="card-image">
 
                 </div>
@@ -70,7 +70,7 @@
                     quis finibus tellus accumsan id.
                 </p>
             </div>
-            <div class="card" id="just-right">
+            <div class="card" id="just-right" data-aos="fade-up" data-aos-delay="250">
                 <div class="card-image">
 
                 </div>
@@ -83,7 +83,7 @@
                     quis finibus tellus accumsan id.
                 </p>
             </div>
-            <div class="card" id="old-fart">
+            <div class="card" id="old-fart" data-aos="fade-up-left" data-aos-delay="500">
                 <div class="card-image">
 
                 </div>
@@ -158,5 +158,11 @@
 
 <!--BOTTOM BLOCK-->
     <div id="bottom-block" class="block"></div>
+
+    <script src="./js/anime.min.js"></script>
+    <script src="./js/granim.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
