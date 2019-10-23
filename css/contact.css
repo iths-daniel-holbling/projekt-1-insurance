@@ -95,7 +95,7 @@ nav a:hover {
 
 #mind-grid {
     height: 32rem;
-    background-color: #bfbbbb;
+    background-color: rgba(180,150,150,0.5);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

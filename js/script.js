@@ -15,6 +15,7 @@ for(element of navLinks){
     })
 }
 
+
 let granimInstance = new Granim({
     element: '#gradient',
     direction: 'left-right',
@@ -39,3 +40,4 @@ let granimInstance = new Granim({
         }
     }
 });
+
